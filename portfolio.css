@@ -13,10 +13,11 @@ html {
     font-weight: bold; 
     font-size: 24px;
     text-align: left;
-    word-spacing: 40px;
+    word-spacing: 45px;
     background-color: #182025;
-    padding-left: 25px;
-    padding-top: 25px;
+    padding-left: 45px;
+    padding-top: 30px;
+    box-shadow: 2px 2px 2px #2F3E46;
     }
 
 a {
@@ -31,7 +32,7 @@ a {
 }
 
 a:hover {
-    background-color: #405F63;
+    background-color: #2F3E46;
 }
  
 header {
@@ -54,10 +55,12 @@ h1 {
 
 #bio-pic {
     margin-bottom: 60px;
+    box-shadow: 4px 4px 3px #405F63;
 }
 
 #bio-pic:hover {
-    transform: scale(1.2)
+    transform: scale(1.1);
+    box-shadow: 4px 4px 3px #405F63;
 }
 
 .container {
@@ -110,12 +113,15 @@ h2 {
     color: #182025;
     border-radius: 3px;
     padding: 3px;
+    box-shadow: 2px 2px 2px #66816c;
 }
 
 h3 {
     background-color: #182025;
     color: #CAD2C5;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #2F3E46;
 
 }
 
@@ -173,3 +179,26 @@ li {
 #contact {
     text-align: center;
 }
+
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #87AB8E; /* Set a background color */
+    color: #182025 ; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 16px; /* Increase font size */
+    font-family: 'Old Standard TT';
+    font-weight: bold;
+    box-shadow: 3px 3px 2px #405F63;
+  }
+  
+  #myBtn:hover {
+    background-color: #405F63; /* Add a dark-grey background on hover */
+    transform: scale(1.1)
+  }
